@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about_us"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.anusaanth.speedyrentals.AboutUsActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Culture and hard work created Speedy Rentals"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView58" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:text="  Speedy Rentals is an ongoing Cnadian success story. Our guiding principles, and humble beginning, revolve around personal honesty and integrity. We believe in strengthening our communities one neighborhood at a time, serving our customers as if they were our family, and rewarding hard work. These things are as true today as they were when we were founded in 2006.
+    "
+            android:layout_width="match_parent"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView57" />
+
+        <TextView
+            android:text="  Today, our massive network means Speedy Rentals is the largest transportation solutions provider. We offer car and truck rentals as well as ride sharing and car sales. What does this mean to our customers? It means we're there when you need us.
+            "
+            android:layout_width="match_parent"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView63" />
+
+        <TextView
+            android:text="  We take an active role in our community, not only because it’s smart for our business, but because we believe in making the world a better place for future generations. Because of our size, we are in a unique position to foster innovation, advance research and test market-driven solutions."
+            android:layout_width="match_parent"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView64" />
+
+    </LinearLayout>
+
+</RelativeLayout>

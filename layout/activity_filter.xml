@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_filter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.anusaanth.speedyrentals.FilterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:text="Sedan"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sedan"
+            android:layout_marginTop="63dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:text="Coupe"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="130dp"
+            android:id="@+id/coupe" />
+
+        <Button
+            android:text="SUV"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/suv"
+            android:layout_below="@+id/coupe"
+            android:layout_alignLeft="@+id/coupe"
+            android:layout_alignStart="@+id/coupe"
+            android:layout_marginTop="19dp" />
+
+        <Button
+            android:text="Pickup Truck"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/pickup"
+            android:layout_marginTop="28dp"
+            android:layout_below="@+id/suv"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>
